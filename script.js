@@ -4,12 +4,12 @@ function enviarFormulario() {
 
   // Obtener los valores de los campos del formulario
   const nombre = document.getElementById("name").value;
-  const apellido = document.getElementById("lastname").value;
+  //const apellido = document.getElementById("lastname").value;
   const mensaje = document.getElementById("message").value;
   const number = document.getElementById("number").value;
 
   // Construir el mensaje de WhatsApp
-  const texto = `Nombre: ${nombre}\nApellido: ${apellido}\nEmail: ${mensaje}`;
+  const texto = `Nombre: ${nombre}\nMensaje: ${mensaje}`;
   const numeroWhatsapp = parseInt(number);
 
   // Número de WhatsApp (con código de país, sin espacios ni símbolos)

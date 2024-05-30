@@ -1,5 +1,6 @@
 body{
-    background-color: #222E35;
+    background-image: url('img/fondo.jpg');
+    font-family: Helvetica, Arial, sans-serif;
 }
 .vh-100{
     height: 100vh;
@@ -9,14 +10,26 @@ body{
     background-color: #06CF9C !important;
     max-width: 500px;
     width: 100%;
-    padding: 20px; /* Añadir un poco de relleno alrededor del formulario */
-    border: 1px solid #ccc; /* Opción para agregar un borde */
-    border-radius: 8px; /* Bordes redondeados */
-    background-color: #f9f9f9; /* Fondo ligero */
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    background-color: #f9f9f9; 
 }
 
 .form-group{
     margin-bottom: 20px;
 }
 
-
+img{
+    background: transparent !important;
+    width: 150px;
+    height: 150px;
+}
+.btn-custom{
+    background-image: url('img/boton.png') ;
+    background-size: cover;
+    width: 150px;
+    height: 80px;
+    border: none;
+ 
+}

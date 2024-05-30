@@ -1,6 +1,7 @@
 body{
     background-image: url('img/fondo.jpg');
     font-family: Helvetica, Arial, sans-serif;
+    overflow-y: hidden;
 }
 .vh-100{
     height: 100vh;

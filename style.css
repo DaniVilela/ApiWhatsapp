@@ -1,0 +1,22 @@
+body{
+    background-color: #222E35;
+}
+.vh-100{
+    height: 100vh;
+}
+
+.form-container{
+    background-color: #06CF9C !important;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px; /* Añadir un poco de relleno alrededor del formulario */
+    border: 1px solid #ccc; /* Opción para agregar un borde */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo ligero */
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+
